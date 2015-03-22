@@ -25,5 +25,22 @@ describe Sloth do
         expect(sample_array.cleanup).to match_array ["foo", "bar"]
       end
     end
+
+    describe "[].substring_search" do
+      it "returns all strings that match a substring" do
+        sample_array = ["hello", "yellow", "red", "mellow"]
+        expect(sample_array.substring_search("ll")).to match_array ["hello", "yellow", "mellow"]
+      end
+
+      it "returns all symbols that match a subsymbol" do
+        sample_array = [:hello, :yellow, :red, :mellow]
+        expect(sample_array.substring_search(:ll)).to match_array [:hello, :yellow, :mellow]
+      end
+
+      it "returns all symbols that match a substring" do
+        sample_array = [:hello, :yellow, :red, :mellow]
+        expect(sample_array.substring_search("ll")).to match_array [:hello, :yellow, :mellow]
+      end
+    end
   end
 end

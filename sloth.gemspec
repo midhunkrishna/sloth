@@ -8,13 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Sloth::VERSION
   spec.authors       = ["midhun krishna"]
   spec.email         = ["kr1shn4.m1dhun@gmail.com"]
-
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Sloth gives you a mess of handy functions that will help you avoid writing these useful code snippets by hand}
+  spec.description   = %q{Sloth is a collection of helpers. A whole bunch of methods defind on ruby's inbuilt classes, just so you can code away without taking the pain of writing it by yourself. Sloth was born out of boredom. The need to write same code snippets over and over again. If you would like to add a method/helper that you think would be useful to others as well, please do send a pull request.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -25,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.8"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.2"           
+  spec.add_development_dependency "rspec", "~> 3.2"
 end
