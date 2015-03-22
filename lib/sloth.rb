@@ -1,9 +1,14 @@
 require "sloth/version"
 require "sloth/array_helpers"
+require "sloth/hash_helpers"
 
 module Sloth
 end
 
 class Array
-  include Sloth::ArrayHelprs
+  include Sloth::ArrayHelpers
+end
+
+class Hash
+  include Sloth::HashHelpers
 end

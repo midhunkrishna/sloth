@@ -1,5 +1,5 @@
 module Sloth
-  module ArrayHelprs
+  module ArrayHelpers
     def cleanup
       flatten.compact.uniq.reject(&:empty?)
     end
