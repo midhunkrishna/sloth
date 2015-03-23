@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sloth/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sloth"
+  spec.name          = "sloth-rb"
   spec.version       = Sloth::VERSION
   spec.authors       = ["midhun krishna"]
   spec.email         = ["kr1shn4.m1dhun@gmail.com"]
