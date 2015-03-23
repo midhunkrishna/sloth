@@ -12,7 +12,7 @@ Sloth is a collection of helpers. A whole bunch of methods defind on ruby's inbu
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sloth'
+gem 'sloth-rb'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sloth
+    $ gem install sloth-rb
 
 ###Documentation
 **Sloth** currently has helpers for:  
