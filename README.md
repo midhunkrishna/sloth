@@ -26,10 +26,10 @@ Or install it yourself as:
 ###Documentation
 **Sloth** currently has helpers for:  
 * Array  
-  * cleanup  
-  * substring_search
+  * [cleanup](https://github.com/midhunkrishna/sloth/wiki/Array#1-cleanup)  
+  * [substring_search](https://github.com/midhunkrishna/sloth/wiki/Array#2-substring_searchsub_string)
 * Hash  
-  * find_all_values_for(key)
+  * [find_all_values_for(key)](https://github.com/midhunkrishna/sloth/wiki/Hash#find_all_values_forkey)
 
 ## Development
 
