@@ -1,4 +1,3 @@
-Setting up environment...
 build:
     steps:
         - bundle-install
