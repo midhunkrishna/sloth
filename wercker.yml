@@ -10,4 +10,4 @@ build:
                 echo "from location $(which ruby)"
         - script:
             name: rspec
-            code: bundle exec rspec
+            code: CODECLIMATE_REPO_TOKEN=$CODECLIMATE_REPO_TOKEN bundle exec rspec
