@@ -1,5 +1,10 @@
 #Sloth
 
+[![wercker status](https://app.wercker.com/status/d5eef98c3e93102a4ba8c5894a1fc79b/m "wercker status")](https://app.wercker.com/project/bykey/d5eef98c3e93102a4ba8c5894a1fc79b)
+
+[![Code Climate](https://codeclimate.com/github/midhunkrishna/sloth/badges/gpa.svg)](https://codeclimate.com/github/midhunkrishna/sloth)
+[![Test Coverage](https://codeclimate.com/github/midhunkrishna/sloth/badges/coverage.svg)](https://codeclimate.com/github/midhunkrishna/sloth)
+
 Sloth is a collection of helpers. A whole bunch of methods defind on ruby's inbuilt classes, just so you can code away without taking the pain of, say:  
   * removing every empty string literals from an array.
   * check whether that string is a valid json.
@@ -36,7 +41,7 @@ Or install it yourself as:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/sloth/fork )
+1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
