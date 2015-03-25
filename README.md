@@ -37,7 +37,7 @@ Or install it yourself as:
 * Hash  
   * [find_all_values_for(key)](https://github.com/midhunkrishna/sloth/wiki/Hash#find_all_values_forkey)
 * String
-  * [email?](his://github.com/midhunkrishna/sloth/wiki/String#1-email)
+  * [email?](https://github.com/midhunkrishna/sloth/wiki/String#1-email)
 
 ## Contributing
 
