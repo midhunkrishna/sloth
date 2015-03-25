@@ -16,5 +16,21 @@ describe Sloth do
         expect(invalid_email.email?).to be_falsy
       end
     end
+
+    describe "''.json?" do
+      it "returns true for valid json" do
+        valid_jsons = ['{"1": 1, "2": 2, "3": {"4": 4, "5": {"6": 6}}}',  '{"1": 1}', '{}']
+        valid_jsons.each do |valid_json|
+          expect(valid_json).to be_json
+        end
+      end
+
+      it "returns false for invalid json" do
+        invalid_jsons = ['{"1": 1, "2": 2, "3": {"4": 4, "5": {"6": 6}', '{"1" 1}', '']
+        invalid_jsons.each do |invalid_json|
+          expect(invalid_json).not_to be_json
+        end
+      end
+    end
   end
 end
