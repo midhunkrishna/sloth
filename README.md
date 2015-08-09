@@ -38,6 +38,7 @@ Or install it yourself as:
   * [find_all_values_for(key)](https://github.com/midhunkrishna/sloth/wiki/Hash#find_all_values_forkey)
 * String
   * [email?](https://github.com/midhunkrishna/sloth/wiki/String#1-email)
+  * [json?] (https://github.com/midhunkrishna/sloth/wiki/String#2-json)
 
 ## Contributing
 
